@@ -11,30 +11,21 @@ import java.util.List;
 
 public class ProductsListModel {
 
-    private ObservableList<ProductFx> bookFxObservableList = FXCollections.observableArrayList();
-    private List<Product> productFxObservableList;
+    private ObservableList<ProductFx> productFxObservableList = FXCollections.observableArrayList();
 
     public void init() throws ApplicationException {
         ProductDao productDao = new ProductDao();
-        List<Product> products = productDao.queryForAll(Product.class);
-        products.forEach(product->{
-            this.productFxObservableList.add(ConverterProduct.convertToProductFx(product));
+        List<Product> books = productDao.queryForAll(Product.class);
+        books.forEach(book -> {
+            this.productFxObservableList.add(ConverterProduct.convertToProductFx(book));
         });
     }
 
-    public ObservableList<ProductFx> getBookFxObservableList() {
-        return bookFxObservableList;
-    }
-
-    public void setBookFxObservableList(ObservableList<ProductFx> bookFxObservableList) {
-        this.bookFxObservableList = bookFxObservableList;
-    }
-
-    public List<Product> getProductFxObservableList() {
+    public ObservableList<ProductFx> getProductFxObservableList() {
         return productFxObservableList;
     }
 
-    public void setProductFxObservableList(List<Product> productFxObservableList) {
+    public void setProductFxObservableList(ObservableList<ProductFx> productFxObservableList) {
         this.productFxObservableList = productFxObservableList;
     }
 }
