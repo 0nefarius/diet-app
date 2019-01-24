@@ -28,20 +28,23 @@ public class TopMenuButtonsController {
 
     @FXML
     public void addProduct() {
-        if(toggleButtons.getSelectedToggle()!=null) {
-            toggleButtons.getSelectedToggle().setSelected(false);
-        }
+        resetToggleButtons();
 
         mainController.setCenter(ADD_PRODUCT_FXML);
     }
 
     @FXML
     public void addCategory() {
+        resetToggleButtons();
+
+        mainController.setCenter(ADD_CATEGORY_FXML);
+    }
+
+    private void resetToggleButtons() {
         if(toggleButtons.getSelectedToggle()!=null) {
             toggleButtons.getSelectedToggle().setSelected(false);
         }
-
-        mainController.setCenter(ADD_CATEGORY_FXML);    }
+    }
 
     public void setMainController(MainController mainController) {
         this.mainController = mainController;

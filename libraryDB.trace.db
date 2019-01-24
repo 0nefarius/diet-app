@@ -1,0 +1,6 @@
+2019-01-24 16:01:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PRODUCTS" not found; SQL statement:
+DROP TABLE `PRODUCTS`  [42102-193]
+2019-01-24 16:01:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CATEGORIES" not found; SQL statement:
+DROP TABLE `CATEGORIES`  [42102-193]

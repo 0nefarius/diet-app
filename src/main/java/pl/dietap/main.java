@@ -1,15 +1,14 @@
 package pl.dietap;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+import pl.dietap.database.dao.dbutils.DbManager;
+import pl.dietap.utils.FillDatabase;
 import pl.dietap.utils.FxmlUtils;
 
 import java.util.Locale;
-import java.util.ResourceBundle;
 
 public class main extends Application {
 
@@ -28,6 +27,9 @@ public class main extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle(FxmlUtils.getResourceBundle().getString("tittle.application"));
         primaryStage.show();
+
+        DbManager.initDatabase();
+        FillDatabase.fillDatabase();
 
     }
 }
