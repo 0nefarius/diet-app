@@ -9,7 +9,6 @@ import java.util.Date;
 @DatabaseTable(tableName = "PRODUCTS")
 public class Product implements BaseModel {
 
-    public static final String PRODUCT_ID = "PRODUCT_ID";
     public static final String CATEGORY_ID = "CATEGORY_ID";
 
     public Product() {
@@ -18,8 +17,6 @@ public class Product implements BaseModel {
     @DatabaseField(generatedId = true)
     private int id;
 
-    @DatabaseField(columnName = PRODUCT_ID, foreign = true, foreignAutoRefresh = true, foreignAutoCreate = true, canBeNull = false)
-    private Product product;
     @DatabaseField(columnName = CATEGORY_ID, foreign = true, foreignAutoRefresh = true, foreignAutoCreate = true, canBeNull = false)
     private Category category;
 
@@ -50,13 +47,6 @@ public class Product implements BaseModel {
         this.id = id;
     }
 
-    public Product getProduct() {
-        return product;
-    }
-
-    public void setProduct(Product product) {
-        this.product = product;
-    }
 
     public Category getCategory() {
         return category;
