@@ -36,8 +36,6 @@ public class Product implements BaseModel {
     @DatabaseField(columnName = "Fat")
     private int fat;
 
-    @DatabaseField(columnName = "ADDED_DATE")
-    private Date addedDate;
 
     public int getId() {
         return id;
@@ -96,13 +94,5 @@ public class Product implements BaseModel {
         this.fat = fat;
     }
 
-
-    public Date getAddedDate() {
-        return addedDate;
-    }
-
-    public void setAddedDate(Date addedDate) {
-        this.addedDate = addedDate;
-    }
 
 }

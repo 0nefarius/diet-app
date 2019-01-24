@@ -20,7 +20,7 @@ public class CategoryModel {
     private TreeItem<String> root = new TreeItem<>();
 
     public void init() throws ApplicationException {
-        CategoryDao categoryDao = new CategoryDao(DbManager.getConnectionSource());
+        CategoryDao categoryDao = new CategoryDao();
         List<Category> categories = categoryDao.queryForAll(Category.class);
         initCategoryList(categories);
         initRoot(categories);
@@ -47,7 +47,7 @@ public class CategoryModel {
     }
 
     public void deleteCategoyById() throws ApplicationException {
-        CategoryDao categoryDao = new CategoryDao (DbManager.getConnectionSource());
+        CategoryDao categoryDao = new CategoryDao();
         categoryDao.deleteById(Category.class, category.getValue().getId());
         DbManager.closeConnectionSource();
         init();
@@ -55,7 +55,7 @@ public class CategoryModel {
 
 
     public void saveCategoryInDataBase(String name) throws ApplicationException {
-        CategoryDao categoryDao = new CategoryDao(DbManager.getConnectionSource());
+        CategoryDao categoryDao = new CategoryDao();
         Category category = new Category();
         category.setName(name);
         categoryDao.creatOrUpdate(category);
@@ -92,7 +92,7 @@ public class CategoryModel {
     }
 
     public void updateCategoryInDataBase() throws ApplicationException {
-        CategoryDao categoryDao = new CategoryDao(DbManager.getConnectionSource());
+        CategoryDao categoryDao = new CategoryDao();
         Category tempCategory = categoryDao.findById(Category.class, getCategory().getId());
         tempCategory.setName(getCategory().getName());
         categoryDao.creatOrUpdate(tempCategory);

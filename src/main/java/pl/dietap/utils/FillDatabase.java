@@ -20,8 +20,6 @@ public class FillDatabase {
         product1.setProtein(4);
         product1.setCarb(10);
         product1.setFat(8);
-        product1.setAddedDate(new Date());
-
 
         Category category2 = new Category();
         category2.setName("Mięso");
