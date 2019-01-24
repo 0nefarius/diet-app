@@ -6,6 +6,9 @@ import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 
+import java.util.Locale;
+import java.util.ResourceBundle;
+
 public class main extends Application {
 
     public static void main(String[] args) {
@@ -14,14 +17,16 @@ public class main extends Application {
 
     public void start(Stage primaryStage) throws Exception {
 
-
+        //Locale.setDefault(new Locale("en"));
         FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/fxml/BorderPaneMain.fxml"));
+        ResourceBundle bundle = ResourceBundle.getBundle("bundles.messages");
+        loader.setResources(bundle);
         BorderPane borderPane = loader.load();
         Scene scene = new Scene(borderPane);
 
 
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Diet-ap");
+        primaryStage.setTitle(bundle.getString("tittle.application"));
         primaryStage.show();
 
     }
