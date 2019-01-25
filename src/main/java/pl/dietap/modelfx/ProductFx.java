@@ -98,7 +98,7 @@ public class ProductFx {
 
     @Override
     public String toString() {
-        return "BookFx{" +
+        return "ProductFx{" +
                 "id=" + id.get() +
                 ", categoryFx=" + categoryFx.get() +
                 ", name=" + name.get() +

@@ -1,6 +1,7 @@
 package pl.dietap.controllers;
 
 import javafx.beans.property.SimpleObjectProperty;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -19,6 +20,9 @@ import pl.dietap.utils.exceptions.ApplicationException;
 
 
 public class ProductListController {
+
+    @FXML
+    private ComboBox categoryComboBox;
 
     @FXML
     private javafx.scene.control.TableView<ProductFx> productsTableView;
@@ -52,6 +56,10 @@ public class ProductListController {
             DialogsUtils.errorDialog(e.getMessage());
         }
 
+        this.categoryComboBox.setItems(this.productsListModel.getCategoryFxObservableList());
+
+        this.productsListModel.categoryFxObjectPropertyProperty().bind(this.categoryComboBox.valueProperty());
+
         this.productsTableView.setItems(this.productsListModel.getProductFxObservableList());
         this.nameColumn.setCellValueFactory(cellData -> cellData.getValue().nameProperty());
         //this.categoryColumn.setCellValueFactory(cellData -> cellData.getValue().categoryFxProperty());
@@ -61,4 +69,11 @@ public class ProductListController {
         this.fatColumn.setCellValueFactory(cellData -> cellData.getValue().fatProperty());
     }
 
+    public void filterOnActionComboBox() {
+        this.productsListModel.filterProductList();
+    }
+
+    public void clearCategoryComboBox() {
+        this.categoryComboBox.getSelectionModel().clearSelection();
+    }
 }
