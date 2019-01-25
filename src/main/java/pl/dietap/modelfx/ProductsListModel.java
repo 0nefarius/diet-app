@@ -43,8 +43,6 @@ public class ProductsListModel {
             filterPredicate(predicateCategory());
         } else if(getCategoryFxObjectProperty() != null) {
             filterPredicate(predicateCategory());
-        } else {
-            this.productFxObservableList.setAll(this.productFxList);
         }
 
     }
@@ -77,6 +75,7 @@ public class ProductsListModel {
     }
 
     public ObservableList<ProductFx> getProductFxObservableList() {
+
         return productFxObservableList;
     }
 
@@ -85,6 +84,7 @@ public class ProductsListModel {
     }
 
     public ObservableList<CategoryFx> getCategoryFxObservableList() {
+
         return categoryFxObservableList;
     }
 
@@ -93,10 +93,12 @@ public class ProductsListModel {
     }
 
     public Category getCategoryFxObjectProperty() {
+
         return categoryFxObjectProperty.get();
     }
 
     public ObjectProperty<Category> categoryFxObjectPropertyProperty() {
+
         return categoryFxObjectProperty;
     }
 

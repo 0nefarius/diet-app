@@ -35,7 +35,6 @@ public class ProductModel {
             CategoryFx categoryFx = ConverterCategory.convertToCategoryFx(c);
             categoryFxObservableList.add(categoryFx);
         });
-        DbManager.closeConnectionSource();
     }
 
     public void saveProductInDataBase() throws ApplicationException {
@@ -51,10 +50,12 @@ public class ProductModel {
     }
 
     public ProductFx getProductFxObjectProperty() {
+
         return productFxObjectProperty.get();
     }
 
     public ObjectProperty<ProductFx> productFxObjectPropertyProperty() {
+
         return productFxObjectProperty;
     }
 
@@ -63,6 +64,7 @@ public class ProductModel {
     }
 
     public ObservableList<CategoryFx> getCategoryFxObservableList() {
+
         return categoryFxObservableList;
     }
 

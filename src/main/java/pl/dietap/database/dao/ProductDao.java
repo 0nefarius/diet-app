@@ -10,6 +10,7 @@ import java.sql.SQLException;
 public class ProductDao extends CommonDao {
 
     public ProductDao() {
+
         super();
     }
 

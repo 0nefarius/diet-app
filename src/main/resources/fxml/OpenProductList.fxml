@@ -15,7 +15,7 @@
             <children>
                 <Label text="%category.product" />
                 <ComboBox fx:id="categoryComboBox" onAction="#filterOnActionComboBox" prefWidth="150.0" />
-                <Button mnemonicParsing="false" onAction="#clearCategoryComboBox" text="x" />
+                <Button mnemonicParsing="false" onAction="#clearCategoryComboBox" text="Reset" />
             </children>
             <padding>
                 <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />

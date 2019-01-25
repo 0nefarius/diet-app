@@ -27,7 +27,6 @@ public class CategoryModel {
         List<Category> categories = categoryDao.queryForAll(Category.class);
         initCategoryList(categories);
         initRoot(categories);
-        DbManager.closeConnectionSource();
     }
 
     private void initRoot(List<Category> categories) {
@@ -63,35 +62,41 @@ public class CategoryModel {
         Category category = new Category();
         category.setName(name);
         categoryDao.creatOrUpdate(category);
-        DbManager.closeConnectionSource();
         init();
     }
 
     public ObservableList<CategoryFx> getCategoryList() {
+
         return categoryList;
     }
 
     public void setCategoryList(ObservableList<CategoryFx> categoryList) {
+
         this.categoryList = categoryList;
     }
 
     public CategoryFx getCategory() {
+
         return category.get();
     }
 
     public ObjectProperty<CategoryFx> categoryProperty() {
+
         return category;
     }
 
     public void setCategory(CategoryFx category) {
+
         this.category.set(category);
     }
 
     public TreeItem<String> getRoot() {
+
         return root;
     }
 
     public void setRoot(TreeItem<String> root) {
+
         this.root = root;
     }
 
@@ -101,7 +106,6 @@ public class CategoryModel {
         tempCategory.setName(getCategory().getName());
         categoryDao.creatOrUpdate(tempCategory);
 
-        DbManager.closeConnectionSource();
         init();
     }
 }

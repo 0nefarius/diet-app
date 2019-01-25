@@ -7,30 +7,47 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="800.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.dietap.controllers.TopMenuButtonsController">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="1038.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.dietap.controllers.TopMenuButtonsController">
    <children>
-      <ToggleButton mnemonicParsing="false" onAction="#openProductList" prefHeight="80.0" prefWidth="200.0" text="%list.products">
+      <ToggleButton mnemonicParsing="false" onAction="#openProductList" prefHeight="132.0" prefWidth="300.0" text="%list.products">
          <toggleGroup>
             <ToggleGroup fx:id="toggleButtons" />
-         </toggleGroup></ToggleButton>
-      <Button mnemonicParsing="false" onAction="#addProduct" prefHeight="80.0" prefWidth="200.0" text="%add.product">
+         </toggleGroup>
          <graphic>
-            <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" translateX="-8.0">
+            <ImageView fitHeight="110.0" fitWidth="112.0" pickOnBounds="true" preserveRatio="true" translateX="-8.0">
                <image>
-                  <Image url="@../icons/add_icon.png" />
+                  <Image url="@../icons/food_icon.png" />
                </image>
             </ImageView>
          </graphic>
+         <font>
+            <Font size="15.0" />
+         </font></ToggleButton>
+      <Button mnemonicParsing="false" onAction="#addProduct" prefHeight="132.0" prefWidth="300.0" text="%add.product">
+         <graphic>
+            <ImageView fitHeight="110.0" fitWidth="112.0" pickOnBounds="true" preserveRatio="true" translateX="-8.0">
+               <image>
+                  <Image url="@../icons/add_product.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
       </Button>
-      <Button mnemonicParsing="false" onAction="#addCategory" prefHeight="80.0" prefWidth="200.0" text="%add.category">
+      <Button mnemonicParsing="false" onAction="#addCategory" prefHeight="132.0" prefWidth="300.0" text="%add.category">
          <graphic>
-            <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" translateX="-8.0">
+            <ImageView fitHeight="110.0" fitWidth="112.0" pickOnBounds="true" preserveRatio="true" translateX="-8.0">
                <image>
-                  <Image url="@../icons/add_icon.png" />
+                  <Image url="@../icons/category_icon.png" />
                </image>
             </ImageView>
          </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
       </Button>
    </children>
    <padding>

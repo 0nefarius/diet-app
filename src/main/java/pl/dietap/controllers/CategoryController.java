@@ -64,7 +64,7 @@ public class CategoryController {
         try {
             this.categoryModel.deleteCategoryById();
         } catch (ApplicationException | SQLException e) {
-            e.printStackTrace();
+            DialogsUtils.errorDialog(e.getMessage());
         }
     }
 
@@ -72,15 +72,14 @@ public class CategoryController {
         this.categoryModel.setCategory(this.categoryComboBox.getSelectionModel().getSelectedItem());
     }
 
-    public void onActionEditCategory() throws ApplicationException {
+    public void onActionEditCategory() {
         String newCategoryName = DialogsUtils.editDialog(this.categoryModel.getCategory().getName());
         if(newCategoryName!=null) {
             this.categoryModel.getCategory().setName(newCategoryName);
-            this.categoryModel.updateCategoryInDataBase();
             try {
                 this.categoryModel.updateCategoryInDataBase();
             } catch (ApplicationException e) {
-                e.printStackTrace();
+                DialogsUtils.errorDialog(e.getMessage());
             }
         }
     }

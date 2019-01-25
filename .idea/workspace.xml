@@ -2,35 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e0ec5b2-6f14-45b2-ae0f-f43b1c3bb942" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraryDB.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/libraryDB.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/TopMenuButtonsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/TopMenuButtonsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/CategoryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/CategoryModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductsListModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductsListModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/utils/FxmlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dietap/utils/FxmlUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/dietap/utils/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bundles/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bundles/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bundles/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bundles/messages_pl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/AddProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/AddProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/OpenDiet.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/OpenProductList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/OpenProductList.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/add_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/add_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bundles/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bundles/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bundles/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bundles/messages_pl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/AddProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/AddProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/OpenDiet.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/OpenProductList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/OpenProductList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/TopMenuButtons.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/TopMenuButtons.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/icons/add_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/icons/add_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dietap/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dietap/controllers/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dietap/controllers/ProductListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dietap/controllers/ProductListController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dietap/controllers/TopMenuButtonsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dietap/controllers/TopMenuButtonsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dietap/modelfx/ProductsListModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dietap/modelfx/ProductsListModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dietap/utils/FxmlUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dietap/utils/FxmlUtils.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,58 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/ProductDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryFx.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/CategoryFx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductFx.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductFx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProductsListModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductsListModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-595">
-              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="1620">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/CategoryModel.java">
+      <file leaf-file-name="ProductListController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+            <state relative-caret-position="1980">
+              <caret line="132" column="50" lean-forward="true" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductModel.java">
+      <file leaf-file-name="OpenProductList.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/OpenProductList.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+            <state relative-caret-position="224">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopMenuButtonsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/TopMenuButtonsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,37 +73,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DialogsUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/DialogsUtils.java">
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="1305">
+              <caret line="87" column="2" lean-forward="true" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FillDatabase.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/FillDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-356">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FxmlUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/FxmlUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2954#2955#0" expanded="true" />
+                <element signature="e#2989#2990#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,7 +112,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/fxml/BorderPaneMain.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Diet.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/ProductList.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/DietPlan.fxml" />
@@ -205,26 +129,27 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/dietap/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/CommonDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dietap/utils/converters/ConverterCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/CategoryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dietap/utils/converters/ConverterProduct.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dietap/utils/FillDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductFx.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/OpenProductList.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductsListModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dietap/utils/FxmlUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bundles/messages_pl.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/bundles/messages.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductListController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/TopMenuButtonsController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/AddProduct.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/CategoryModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/CategoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dietap/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/CategoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/TopMenuButtonsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/CategoryModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductsListModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductListController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/OpenProductList.fxml" />
       </list>
     </option>
   </component>
@@ -267,7 +192,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="28" />
-    <option name="width" value="936" />
+    <option name="width" value="1080" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -316,17 +241,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dietap" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="diet-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="diet-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dietap" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="dbutils" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="diet-app" type="b2602c69:ProjectViewProjectNode" />
@@ -351,6 +266,16 @@
               <item name="diet-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dietap" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="converters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diet-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diet-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,14 +293,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="fxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="diet-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="diet-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -489,16 +406,15 @@
       <workItem from="1548335699150" duration="5360000" />
       <workItem from="1548342041065" duration="14750000" />
       <workItem from="1548358726311" duration="14756000" />
-      <workItem from="1548421177193" duration="14846000" />
+      <workItem from="1548421177193" duration="20082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67494000" />
+    <option name="totallyTimeSpent" value="72730000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="936" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="28" width="1080" height="1050" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -514,7 +430,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.366453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3175926" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
       <window_info id="Learn" order="2" />
@@ -664,16 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/converters/ConverterCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/converters/ConverterProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -714,14 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/BaseModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -735,30 +633,6 @@
           <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -782,14 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/OpenProductList.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AddProduct.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -798,10 +664,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductFx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/DialogsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/FillDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/FxmlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        <state relative-caret-position="495">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -810,44 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
+        <state relative-caret-position="-4">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="132" column="46" selection-start-line="132" selection-start-column="46" selection-end-line="132" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3667#3668#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#3768#3769#0" expanded="true" />
-            <element signature="e#3842#3843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/TopMenuButtonsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -856,7 +738,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/dbutils/DbManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
+        <state relative-caret-position="330">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -873,7 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/CommonDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="1650">
           <caret line="112" column="34" lean-forward="true" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -881,10 +763,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/models/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/database/dao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/CategoryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/converters/ConverterCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -893,7 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/CategoryFx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state relative-caret-position="495">
           <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -915,77 +853,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/CategoryModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductFx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductsListModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="1620">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/modelfx/ProductModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/TopMenuButtonsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        <state relative-caret-position="509">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/DialogsUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="1980">
+          <caret line="132" column="50" lean-forward="true" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/FxmlUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/controllers/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="1305">
+          <caret line="87" column="2" lean-forward="true" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2954#2955#0" expanded="true" />
+            <element signature="e#2989#2990#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/OpenProductList.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dietap/utils/FillDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -16,8 +16,10 @@ public class TopMenuButtonsController {
 
     @FXML
     public void openProductList() {
+
         mainController.setCenter(OPEN_PRODUCT_LIST_FXML);
     }
+
 
     @FXML
     public void addProduct() {
@@ -40,6 +42,7 @@ public class TopMenuButtonsController {
     }
 
     public void setMainController(MainController mainController) {
+
         this.mainController = mainController;
     }
 }

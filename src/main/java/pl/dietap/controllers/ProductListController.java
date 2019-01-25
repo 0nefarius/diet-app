@@ -26,7 +26,7 @@ public class ProductListController {
     private ComboBox categoryComboBox;
 
     @FXML
-    private javafx.scene.control.TableView<ProductFx> productsTableView;
+    private TableView<ProductFx> productsTableView;
 
     @FXML
     private TableColumn<ProductFx, String> nameColumn;
@@ -66,7 +66,6 @@ public class ProductListController {
         }
 
         this.categoryComboBox.setItems(this.productsListModel.getCategoryFxObservableList());
-
         this.productsListModel.categoryFxObjectPropertyProperty().bind(this.categoryComboBox.valueProperty());
 
         this.productsTableView.setItems(this.productsListModel.getProductFxObservableList());
@@ -125,7 +124,7 @@ public class ProductListController {
                         try {
                             scene = new Scene(loader.load());
                         } catch (IOException e) {
-                            e.printStackTrace();
+                            DialogsUtils.errorDialog(e.getMessage());
                         }
 
                         ProductController controller = loader.getController();

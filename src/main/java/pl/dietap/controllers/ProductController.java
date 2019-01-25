@@ -1,6 +1,5 @@
 package pl.dietap.controllers;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
@@ -14,6 +13,9 @@ public class ProductController {
 
     @FXML
     public Button addButton;
+
+    @FXML
+    private ComboBox<CategoryFx> categoryCoboBox;
 
     @FXML
     private TextField fatTextField;
@@ -30,8 +32,7 @@ public class ProductController {
     @FXML
     private TextField nameTextField;
 
-    @FXML
-    private ComboBox<CategoryFx> categoryCoboBox;
+
 
     private ProductModel productModel;
 
@@ -70,20 +71,21 @@ public class ProductController {
     public void addProductOnAction() {
         try {
             this.productModel.saveProductInDataBase();
-            clearFields();
         } catch (ApplicationException e) {
-            e.printStackTrace();
+            DialogsUtils.errorDialog(e.getMessage());
         }
     }
 
-    private void clearFields() {
+/*
+   private void clearFields() {
         this.categoryCoboBox.getSelectionModel().clearSelection();
         this.nameTextField.clear();
-        this.kcalTextField.clear();
+        this.kcalTextField.clear();                                 NIE UZYWAM METODY BO PODCZAS EDYCJI USUWA DANE W TABELI
         this.proteinTextField.clear();
         this.carbTextField.clear();
         this.fatTextField.clear();
     }
+*/
 
     public ProductModel getProductModel() {
         return productModel;
