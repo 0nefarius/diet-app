@@ -38,7 +38,7 @@
             <TextField fx:id="proteinTextField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <TextField fx:id="carbTextField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
             <TextField fx:id="fatTextField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-            <Button mnemonicParsing="false" onAction="#addProductOnAction" text="%add.button" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Button mnemonicParsing="false" fx:id="addButton" onAction="#addProductOnAction" text="%save.button" GridPane.columnIndex="1" GridPane.rowIndex="6" />
          </children>
       </GridPane>
    </children>

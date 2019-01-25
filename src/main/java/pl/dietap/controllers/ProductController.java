@@ -2,6 +2,7 @@ package pl.dietap.controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import pl.dietap.modelfx.CategoryFx;
@@ -10,6 +11,9 @@ import pl.dietap.utils.DialogsUtils;
 import pl.dietap.utils.exceptions.ApplicationException;
 
 public class ProductController {
+
+    @FXML
+    public Button addButton;
 
     @FXML
     private TextField fatTextField;
@@ -40,23 +44,48 @@ public class ProductController {
             DialogsUtils.errorDialog(e.getMessage());
         }
         bindings();
+        validation();
     }
 
-    private void bindings() {
+    private void validation() {
+        this.addButton.disableProperty().bind(this.categoryCoboBox.valueProperty().isNull()
+                .or(this.nameTextField.textProperty().isNull())
+                .or(this.kcalTextField.textProperty().isEmpty())
+                .or(this.proteinTextField.textProperty().isEmpty())
+                .or(this.carbTextField.textProperty().isEmpty())
+                .or(this.fatTextField.textProperty().isNull()));
+    }
+
+    public void bindings() {
         this.categoryCoboBox.setItems(this.productModel.getCategoryFxObservableList());
-        this.productModel.getProductFxObjectProperty().categoryFxProperty().bind(this.categoryCoboBox.valueProperty());
-        this.productModel.getProductFxObjectProperty().nameProperty().bind(this.nameTextField.textProperty());
-        this.productModel.getProductFxObjectProperty().kcalProperty().bind(this.kcalTextField.textProperty());
-        this.productModel.getProductFxObjectProperty().proteinProperty().bind(this.proteinTextField.textProperty());
-        this.productModel.getProductFxObjectProperty().carbProperty().bind(this.carbTextField.textProperty());
-        this.productModel.getProductFxObjectProperty().fatProperty().bind(this.fatTextField.textProperty());
+
+        this.categoryCoboBox.valueProperty().bindBidirectional(this.productModel.getProductFxObjectProperty().categoryFxProperty());
+        this.nameTextField.textProperty().bindBidirectional(this.productModel.getProductFxObjectProperty().nameProperty());
+        this.kcalTextField.textProperty().bindBidirectional(this.productModel.getProductFxObjectProperty().kcalProperty());
+        this.proteinTextField.textProperty().bindBidirectional(this.productModel.getProductFxObjectProperty().proteinProperty());
+        this.carbTextField.textProperty().bindBidirectional(this.productModel.getProductFxObjectProperty().carbProperty());
+        this.fatTextField.textProperty().bindBidirectional(this.productModel.getProductFxObjectProperty().fatProperty());
     }
 
     public void addProductOnAction() {
         try {
             this.productModel.saveProductInDataBase();
+            clearFields();
         } catch (ApplicationException e) {
             e.printStackTrace();
         }
+    }
+
+    private void clearFields() {
+        this.categoryCoboBox.getSelectionModel().clearSelection();
+        this.nameTextField.clear();
+        this.kcalTextField.clear();
+        this.proteinTextField.clear();
+        this.carbTextField.clear();
+        this.fatTextField.clear();
+    }
+
+    public ProductModel getProductModel() {
+        return productModel;
     }
 }

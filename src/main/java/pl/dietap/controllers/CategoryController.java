@@ -1,12 +1,13 @@
 package pl.dietap.controllers;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import pl.dietap.modelfx.CategoryFx;
 import pl.dietap.modelfx.CategoryModel;
 import pl.dietap.utils.DialogsUtils;
 import pl.dietap.utils.exceptions.ApplicationException;
+
+import java.sql.SQLException;
 
 public class CategoryController {
 
@@ -32,7 +33,7 @@ public class CategoryController {
     private CategoryModel categoryModel;
 
     @FXML
-    public void initialize() throws ApplicationException {
+    public void initialize() {
         this.categoryModel = new CategoryModel();
         try {
             this.categoryModel.init();
@@ -50,7 +51,7 @@ public class CategoryController {
         this.editCategoryButton.disableProperty().bind(this.categoryModel.categoryProperty().isNull());
     }
 
-    public void addCategoryOnAction() throws ApplicationException {
+    public void addCategoryOnAction() {
         try {
             categoryModel.saveCategoryInDataBase(categoryTextField.getText());
         } catch (ApplicationException e) {
@@ -59,8 +60,12 @@ public class CategoryController {
         categoryTextField.clear();
     }
 
-    public void onActionDeleteButton() throws ApplicationException {
-        this.categoryModel.deleteCategoyById();
+    public void onActionDeleteButton() {
+        try {
+            this.categoryModel.deleteCategoryById();
+        } catch (ApplicationException | SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     public void onActionComboBox() {

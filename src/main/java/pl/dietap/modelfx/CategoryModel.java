@@ -6,11 +6,14 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.TreeItem;
 import pl.dietap.database.dao.CategoryDao;
+import pl.dietap.database.dao.ProductDao;
 import pl.dietap.database.dao.dbutils.DbManager;
 import pl.dietap.database.dao.models.Category;
+import pl.dietap.database.dao.models.Product;
 import pl.dietap.utils.converters.ConverterCategory;
 import pl.dietap.utils.exceptions.ApplicationException;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public class CategoryModel {
@@ -46,10 +49,11 @@ public class CategoryModel {
         });
     }
 
-    public void deleteCategoyById() throws ApplicationException {
+    public void deleteCategoryById() throws ApplicationException, SQLException {
         CategoryDao categoryDao = new CategoryDao();
         categoryDao.deleteById(Category.class, category.getValue().getId());
-        DbManager.closeConnectionSource();
+        ProductDao productDao = new ProductDao();
+        productDao.deleteByColumnName(Product.CATEGORY_ID, category.getValue().getId());
         init();
     }
 

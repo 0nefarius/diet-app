@@ -10,12 +10,10 @@
 
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="800.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.dietap.controllers.TopMenuButtonsController">
    <children>
-      <ToggleButton mnemonicParsing="false" onAction="#openDiet" prefHeight="80.0" prefWidth="200.0" text="%diet.plan">
+      <ToggleButton mnemonicParsing="false" onAction="#openProductList" prefHeight="80.0" prefWidth="200.0" text="%list.products">
          <toggleGroup>
             <ToggleGroup fx:id="toggleButtons" />
-         </toggleGroup>
-      </ToggleButton>
-      <ToggleButton mnemonicParsing="false" onAction="#openProductList" prefHeight="80.0" prefWidth="200.0" text="%list.products" toggleGroup="$toggleButtons" />
+         </toggleGroup></ToggleButton>
       <Button mnemonicParsing="false" onAction="#addProduct" prefHeight="80.0" prefWidth="200.0" text="%add.product">
          <graphic>
             <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" translateX="-8.0">

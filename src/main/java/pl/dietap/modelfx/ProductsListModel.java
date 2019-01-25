@@ -29,6 +29,7 @@ public class ProductsListModel {
     public void init() throws ApplicationException {
         ProductDao productDao = new ProductDao();
         List<Product> products = productDao.queryForAll(Product.class);
+        productFxList.clear();
         products.forEach(product -> {
             this.productFxList.add(ConverterProduct.convertToProductFx(product));
         });
@@ -46,6 +47,12 @@ public class ProductsListModel {
             this.productFxObservableList.setAll(this.productFxList);
         }
 
+    }
+
+    public void deleteProduct(ProductFx productFx) throws ApplicationException {
+        ProductDao productDao = new ProductDao();
+        productDao.deleteById(Product.class, productFx.getId());
+        init();
     }
 
     private void initCategory() throws ApplicationException {

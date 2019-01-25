@@ -6,7 +6,6 @@ import javafx.scene.control.ToggleGroup;
 
 public class TopMenuButtonsController {
 
-    public static final String OPEN_DIET_FXML = "/fxml/OpenDiet.fxml";
     public static final String OPEN_PRODUCT_LIST_FXML = "/fxml/OpenProductList.fxml";
     public static final String ADD_PRODUCT_FXML = "/fxml/AddProduct.fxml";
     public static final String ADD_CATEGORY_FXML = "/fxml/AddCategory.fxml";
@@ -16,15 +15,9 @@ public class TopMenuButtonsController {
     private ToggleGroup toggleButtons;
 
     @FXML
-    public void openDiet() {
-        mainController.setCenter(OPEN_DIET_FXML);
-    }
-
-    @FXML
     public void openProductList() {
         mainController.setCenter(OPEN_PRODUCT_LIST_FXML);
     }
-
 
     @FXML
     public void addProduct() {
