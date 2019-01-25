@@ -46,10 +46,10 @@ public class ProductController {
         this.categoryCoboBox.setItems(this.productModel.getCategoryFxObservableList());
         this.productModel.getProductFxObjectProperty().categoryFxProperty().bind(this.categoryCoboBox.valueProperty());
         this.productModel.getProductFxObjectProperty().nameProperty().bind(this.nameTextField.textProperty());
-        this.productModel.getProductFxObjectProperty().kcalProperty().bind(this.kcalTextField.prefColumnCountProperty());
-        this.productModel.getProductFxObjectProperty().proteinProperty().bind(this.proteinTextField.prefColumnCountProperty());
-        this.productModel.getProductFxObjectProperty().carbProperty().bind(this.carbTextField.prefColumnCountProperty());
-        this.productModel.getProductFxObjectProperty().fatProperty().bind(this.fatTextField.prefColumnCountProperty());
+        this.productModel.getProductFxObjectProperty().kcalProperty().bind(this.kcalTextField.textProperty());
+        this.productModel.getProductFxObjectProperty().proteinProperty().bind(this.proteinTextField.textProperty());
+        this.productModel.getProductFxObjectProperty().carbProperty().bind(this.carbTextField.textProperty());
+        this.productModel.getProductFxObjectProperty().fatProperty().bind(this.fatTextField.textProperty());
     }
 
     public void addProductOnAction() {

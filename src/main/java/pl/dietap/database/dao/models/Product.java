@@ -24,17 +24,17 @@ public class Product implements BaseModel {
     private String name;
 
 
-    @DatabaseField(columnName = "kcal")
-    private int kcal;
+    @DatabaseField(columnName = "kcal", canBeNull = false)
+    private String kcal;
 
-    @DatabaseField(columnName = "Protein")
-    private int protein;
+    @DatabaseField(columnName = "Protein", canBeNull = false)
+    private String protein;
 
-    @DatabaseField(columnName = "Carb")
-    private int carb;
+    @DatabaseField(columnName = "Carb", canBeNull = false)
+    private String carb;
 
-    @DatabaseField(columnName = "Fat")
-    private int fat;
+    @DatabaseField(columnName = "Fat", canBeNull = false)
+    private String fat;
 
 
     public int getId() {
@@ -62,35 +62,35 @@ public class Product implements BaseModel {
         this.name = name;
     }
 
-    public int getKcal() {
+    public String getKcal() {
         return kcal;
     }
 
-    public void setKcal(int kcal) {
+    public void setKcal(String kcal) {
         this.kcal = kcal;
     }
 
-    public int getProtein() {
+    public String getProtein() {
         return protein;
     }
 
-    public void setProtein(int protein) {
+    public void setProtein(String protein) {
         this.protein = protein;
     }
 
-    public int getCarb() {
+    public String getCarb() {
         return carb;
     }
 
-    public void setCarb (int carb) {
+    public void setCarb (String carb) {
         this.carb = carb;
     }
 
-    public int getFat() {
+    public String getFat() {
         return fat;
     }
 
-    public void setFat (int fat) {
+    public void setFat (String fat) {
         this.fat = fat;
     }
 

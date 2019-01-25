@@ -7,10 +7,10 @@ public class ProductFx {
     private IntegerProperty id = new SimpleIntegerProperty();
     private ObjectProperty<CategoryFx> categoryFx = new SimpleObjectProperty<>();
     private SimpleStringProperty name = new SimpleStringProperty();
-    private IntegerProperty kcal = new SimpleIntegerProperty();
-    private IntegerProperty protein = new SimpleIntegerProperty();
-    private IntegerProperty carb = new SimpleIntegerProperty();
-    private IntegerProperty fat = new SimpleIntegerProperty();
+    private SimpleStringProperty kcal = new SimpleStringProperty();
+    private SimpleStringProperty protein = new SimpleStringProperty();
+    private SimpleStringProperty carb = new SimpleStringProperty();
+    private SimpleStringProperty fat = new SimpleStringProperty();
 
     public int getId() {
         return id.get();
@@ -48,51 +48,51 @@ public class ProductFx {
         this.name.set(name);
     }
 
-    public int getKcal() {
+    public String getKcal() {
         return kcal.get();
     }
 
-    public IntegerProperty kcalProperty() {
+    public SimpleStringProperty kcalProperty() {
         return kcal;
     }
 
-    public void setKcal(int kcal) {
+    public void setKcal(String kcal) {
         this.kcal.set(kcal);
     }
 
-    public int getProtein() {
+    public String getProtein() {
         return protein.get();
     }
 
-    public IntegerProperty proteinProperty() {
+    public SimpleStringProperty proteinProperty() {
         return protein;
     }
 
-    public void setProtein(int protein) {
+    public void setProtein(String protein) {
         this.protein.set(protein);
     }
 
-    public int getCarb() {
+    public String getCarb() {
         return carb.get();
     }
 
-    public IntegerProperty carbProperty() {
+    public SimpleStringProperty carbProperty() {
         return carb;
     }
 
-    public void setCarb(int carb) {
+    public void setCarb(String carb) {
         this.carb.set(carb);
     }
 
-    public int getFat() {
+    public String getFat() {
         return fat.get();
     }
 
-    public IntegerProperty fatProperty() {
+    public SimpleStringProperty fatProperty() {
         return fat;
     }
 
-    public void setFat(int fat) {
+    public void setFat(String fat) {
         this.fat.set(fat);
     }
 

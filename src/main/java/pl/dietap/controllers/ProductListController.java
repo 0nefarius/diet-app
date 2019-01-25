@@ -30,16 +30,16 @@ public class ProductListController {
     private TableColumn<ProductFx, String> categoryColumn;
 
     @FXML
-    private TableColumn<ProductFx, Number> kcalColumn;
+    private TableColumn<ProductFx, String> kcalColumn;
 
     @FXML
-    private TableColumn<ProductFx, Number> proteinColumn;
+    private TableColumn<ProductFx, String> proteinColumn;
 
     @FXML
-    private TableColumn<ProductFx, Number> carbColumn;
+    private TableColumn<ProductFx, String> carbColumn;
 
     @FXML
-    private TableColumn<ProductFx, Number> fatColumn;
+    private TableColumn<ProductFx, String> fatColumn;
 
     private ProductsListModel productsListModel;
 
